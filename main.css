@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(247, 241, 241, 0.808);
+}
+
+h1{
+   text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:blue
+
+}
+.ads{
+    font-size: x-large;
+    background-color: aliceblue;
+}
+#devfront{
+    color: black;
+    
+}
+div{
+    text-align: right;
+font-style: italic;
+
+ color: rgb(70, 21, 116);
+ background-color: rgb(180, 185, 183);
+}
