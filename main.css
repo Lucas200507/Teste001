@@ -1,25 +1,37 @@
-body{
-    background-color: rgba(247, 241, 241, 0.808);
+  .container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    text-align: center;
+
+
+/*Indiferente*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
 }
 
-h1{
-   text-align: center;
-    background-color: rgb(255, 255, 255);
-    color:blue
-
+.block1 {
+    order: 0;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
 }
-.ads{
-    font-size: x-large;
-    background-color: aliceblue;
+ 
+.block2 {
+    order: 1;
+    background-color: rgb(48, 212, 136);
+    width: 100px;
+    height: 100px;
 }
-#devfront{
-    color: black;
-    
-}
-div{
-    text-align: right;
-font-style: italic;
-
- color: rgb(70, 21, 116);
- background-color: rgb(180, 185, 183);
+.block3 {
+    order: 0;
+    background-color: rgb(65, 74, 212);
+    width: 100px;
+    height: 100px;
 }
